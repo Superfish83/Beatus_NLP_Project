@@ -1,1 +1,1 @@
-asdf
+hello Beatus.
