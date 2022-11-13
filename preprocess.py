@@ -30,7 +30,7 @@ def tokenize(lang):
 
 def load_dataset(path, num_examples=None):
     # 전처리된 타겟 문장과 입력 문장 쌍을 생성합니다.
-    targ_lang, inp_lang = create_dataset(path, num_examples)
+    inp_lang, targ_lang = create_dataset(path, num_examples)
 
     input_tensor, inp_lang_tokenizer = tokenize(inp_lang)
     target_tensor, targ_lang_tokenizer = tokenize(targ_lang)
