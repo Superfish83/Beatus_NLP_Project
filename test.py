@@ -61,6 +61,3 @@ def get_data_recurrent(n, time_steps, input_dim, attention_column=10):
     x[:, attention_column, :] = np.tile(y, input_dim)
 
     return x, y
-
-print('	' == ' ')
-print('	' == '\t')
